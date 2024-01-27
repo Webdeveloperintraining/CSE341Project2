@@ -8,7 +8,7 @@ const doc=
     },
     host: 'cse341project2-vexy.onrender.com',
     //host: 'localhost:3050',
-    schemes:['https']
+    schemes:['http','https']
 };
 
 const outputFile ='./swagger.json';

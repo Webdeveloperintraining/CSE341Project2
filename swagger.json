@@ -5,10 +5,10 @@
     "description": "Bookstore Api",
     "version": "1.0.0"
   },
-  "host": "cse341project2-vexy.onrender.com",
+  "host": "localhost:3050",
   "basePath": "/",
   "schemes": [
-    "https"
+    "http","http"
   ],
   "paths": {
     "/": {
