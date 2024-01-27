@@ -6,9 +6,9 @@ const doc=
         title:"Bookstore Api",
         description:"Books from Bookstore Api"
     },
-    //host: 'contacts-project-3i6u.onrender.com',
-    host: 'localhost:3050',
-    schemes:['http']
+    host: 'cse341project2-vexy.onrender.com',
+    //host: 'localhost:3050',
+    schemes:['https']
 };
 
 const outputFile ='./swagger.json';

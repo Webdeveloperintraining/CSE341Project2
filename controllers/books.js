@@ -11,7 +11,7 @@ const result = await mongodb.getDatabase().db('bookstore').collection('books').f
 };
 
 const getSingle = async (req, res) =>{
-    if (!ObjectId.isValid(req.params.id)) { res.status(400).json('Must use a valid book id to update a book.'); } 
+    if (!ObjectId.isValid(req.params.id)) { res.status(400).json('Must use a valid book id to find a book.'); } 
 const bookId = new ObjectId(req.params.id);
     const result = await mongodb.getDatabase().db('bookstore').collection('books').find({_id:bookId});
     
