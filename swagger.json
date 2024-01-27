@@ -2,7 +2,7 @@
   "swagger": "2.0",
   "info": {
     "title": "Bookstore Api",
-    "description": "Books from Bookstore Api",
+    "description": "Bookstore Api",
     "version": "1.0.0"
   },
   "host": "cse341project2-vexy.onrender.com",
