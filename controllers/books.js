@@ -27,7 +27,9 @@ const createBook = async (req,res)=>{
     authorFirstName: req.body.authorFirstName,
     authorLastName: req.body.authorLastName,
     publicationDate: req.body.publicationDate,
-    pages: req.body.pages
+    pages: req.body.pages,
+    price: req.body.price,
+    stock: req.body.stock
     };
     const response = await mongodb.getDatabase().db('bookstore').collection('books').insertOne(book);
     if (response.acknowledged){
@@ -45,7 +47,9 @@ const updateBook = async (req,res)=>{
     authorFirstName: req.body.authorFirstName,
     authorLastName: req.body.authorLastName,
     publicationDate: req.body.publicationDate,
-    pages: req.body.pages
+    pages: req.body.pages,
+    price: req.body.price,
+    stock: req.body.stock
     };
     const response = await mongodb.getDatabase().db('bookstore').collection('books').replaceOne({_id: bookId}, book);
     if (response.modifiedCount > 0){

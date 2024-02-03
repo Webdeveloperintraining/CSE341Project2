@@ -56,6 +56,12 @@
                 },
                 "pages": {
                   "example": "any"
+                },
+                "price": {
+                  "example": "any"
+                },
+                "stock": {
+                  "example": "any"
                 }
               }
             }
@@ -122,6 +128,12 @@
                   "example": "any"
                 },
                 "pages": {
+                  "example": "any"
+                },
+                "price": {
+                  "example": "any"
+                },
+                "stock": {
                   "example": "any"
                 }
               }

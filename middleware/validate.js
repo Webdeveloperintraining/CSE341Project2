@@ -5,7 +5,9 @@ const saveBook = (req, res, next) => {
         authorFirstName: 'required|string', 
         authorLastName: 'required|string', 
         publicationDate: 'required|string',
-        pages:"string"}; 
+        pages:"required|string",
+        price:"required|string",
+        stock:"required|string" }; 
         validator(req.body, 
             validationRule, {}, 
             (err, status) => { 
